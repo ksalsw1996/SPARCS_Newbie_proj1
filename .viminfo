@@ -39,18 +39,19 @@ $
 	'
 
 # 파일 마크:
-'0  21  21  ~/hello/hello/urls.py
-'1  6  11  ~/hello/helloworld/urls.py
-'2  5  0  ~/hello/helloworld/views.py
-'3  4  18  ~/hello/helloworld/urls.py
-'4  3  0  ~/hello/helloworld/urls.py
-'5  12  0  ~/hello/hello/urls.py
-'6  16  40  ~/hello/hello/urls.py
-'7  22  0  ~/hello/hello/urls.py
-'8  7  3  ~/hello/helloworld/urls.py
-'9  1  0  ~/hello/helloworld/views.py
+'0  1  9  ~/.gitignore
+'1  21  21  ~/hello/hello/urls.py
+'2  6  11  ~/hello/helloworld/urls.py
+'3  5  0  ~/hello/helloworld/views.py
+'4  4  18  ~/hello/helloworld/urls.py
+'5  3  0  ~/hello/helloworld/urls.py
+'6  12  0  ~/hello/hello/urls.py
+'7  16  40  ~/hello/hello/urls.py
+'8  22  0  ~/hello/hello/urls.py
+'9  7  3  ~/hello/helloworld/urls.py
 
 # 점프목록 (새것이 먼저):
+-'  1  9  ~/.gitignore
 -'  21  21  ~/hello/hello/urls.py
 -'  1  0  ~/hello/hello/urls.py
 -'  6  11  ~/hello/helloworld/urls.py
@@ -147,10 +148,14 @@ $
 -'  1  0  /tmp/tmpxxf3cUedalias
 -'  1  19  ~/.forward
 -'  1  19  ~/.forward
--'  46  0  /tmp/tmpK6jqypedalias
--'  18  35  /tmp/tmpK6jqypedalias
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/.gitignore
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
 
 > ~/hello/hello/urls.py
 	"	21	21
