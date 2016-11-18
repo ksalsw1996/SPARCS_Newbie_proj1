@@ -1,0 +1,18 @@
+2016-11-18 20:49:40,608 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2016-11-18 20:49:40,620 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/initialize
+2016-11-18 20:49:40,623 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/premkvirtualenv
+2016-11-18 20:49:40,627 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/postmkvirtualenv
+2016-11-18 20:49:40,630 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/prermvirtualenv
+2016-11-18 20:49:40,633 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/postrmvirtualenv
+2016-11-18 20:49:40,636 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/predeactivate
+2016-11-18 20:49:40,640 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/postdeactivate
+2016-11-18 20:49:40,643 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/preactivate
+2016-11-18 20:49:40,646 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/postactivate
+2016-11-18 20:49:40,649 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/get_env_details
+2016-11-18 20:49:40,652 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/premkproject
+2016-11-18 20:49:40,655 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/postmkproject
+2016-11-18 20:49:40,658 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/prermproject
+2016-11-18 20:49:40,662 INFO virtualenvwrapper.user_scripts creating /home/sexysw/.virtualenvs/postrmproject
+2016-11-18 20:49:40,664 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-CgLEJXGl3E
+2016-11-18 20:49:40,944 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2016-11-18 20:49:40,950 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-sxIWNkZySb

@@ -1,0 +1,280 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.3.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~Msle0~/\<from\>
+
+# 마지막으로 바꾼 문자열:
+$
+
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:q
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+? \<from\>
+? \<url\>
+? \<print_hello\>
+? \<HelloWorld\>
+?/gura
+?/share
+?/sparcs
+?/sparcs^
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+"0	CHAR	0
+	d
+""-	CHAR	0
+	'
+
+# 파일 마크:
+'0  21  21  ~/hello/hello/urls.py
+'1  6  11  ~/hello/helloworld/urls.py
+'2  5  0  ~/hello/helloworld/views.py
+'3  4  18  ~/hello/helloworld/urls.py
+'4  3  0  ~/hello/helloworld/urls.py
+'5  12  0  ~/hello/hello/urls.py
+'6  16  40  ~/hello/hello/urls.py
+'7  22  0  ~/hello/hello/urls.py
+'8  7  3  ~/hello/helloworld/urls.py
+'9  1  0  ~/hello/helloworld/views.py
+
+# 점프목록 (새것이 먼저):
+-'  21  21  ~/hello/hello/urls.py
+-'  1  0  ~/hello/hello/urls.py
+-'  6  11  ~/hello/helloworld/urls.py
+-'  1  0  ~/hello/helloworld/urls.py
+-'  5  0  ~/hello/helloworld/views.py
+-'  1  0  ~/hello/helloworld/views.py
+-'  4  18  ~/hello/helloworld/urls.py
+-'  3  0  ~/hello/helloworld/urls.py
+-'  12  0  ~/hello/hello/urls.py
+-'  16  40  ~/hello/hello/urls.py
+-'  22  0  ~/hello/hello/urls.py
+-'  7  3  ~/hello/helloworld/urls.py
+-'  8  0  ~/hello/helloworld/urls.py
+-'  9  0  ~/hello/helloworld/views.py
+-'  1  0  ~/hello/hello/views.py
+-'  42  14  ~/hello/hello/settings.py
+-'  1  0  ~/hello/hello/settings.py
+-'  8  0  ~/hello/hello
+-'  22  4  ~/hello/manage.py
+-'  1  0  ~/hello/manage.py
+-'  1  0  ~/hello/print_hello/urls.py
+-'  2  0  ~/hello/print_hello/views.py
+-'  1  0  ~/hello/print_hello/views.py
+-'  6  37  ~/hello/print_hello/views.py
+-'  40  0  ~/hello/hello/settings.py
+-'  29  6  ~/hello/hello/settings.py
+-'  28  7  ~/hello/hello/settings.py
+-'  1  0  ~/Hello/manage.py
+-'  1  0  ~/Hello_World/manage.py
+-'  5  0  ~/Hello_World/Hello/urls.py
+-'  1  0  ~/Hello_World/Hello/urls.py
+-'  4  8  ~/Hello_World/Hello/views.py
+-'  1  0  ~/Hello_World/Hello/views.py
+-'  3  0  ~/Hello_World/Hello/urls.py
+-'  6  0  ~/Hello_World/Hello/urls.py
+-'  6  24  ~/Hello_World/Hello/views.py
+-'  1  13  ~/project_test/requirements.txt
+-'  1  0  ~/project_test/pip-selfcheck.json
+-'  46  0  /tmp/tmpK6jqypedalias
+-'  18  35  /tmp/tmpK6jqypedalias
+-'  7  0  /tmp/tmpK6jqypedalias
+-'  2  1  /tmp/tmpK6jqypedalias
+-'  27  0  /tmp/tmpK6jqypedalias
+-'  1  0  /tmp/tmpK6jqypedalias
+-'  6  9  /tmp/nugu-10630
+-'  1  0  /tmp/nugu-10630
+-'  18  15  /tmp/nugu-9876
+-'  1  0  /tmp/nugu-9876
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  18  15  /tmp/nugu-9876
+-'  1  0  /tmp/nugu-9876
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  6  9  /tmp/nugu-10630
+-'  1  0  /tmp/nugu-10630
+-'  18  15  /tmp/nugu-9876
+-'  1  0  /tmp/nugu-9876
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  18  15  /tmp/nugu-9876
+-'  1  0  /tmp/nugu-9876
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  42  1  /tmp/tmpxxf3cUedalias
+-'  48  0  /tmp/tmpxxf3cUedalias
+-'  1  0  /tmp/tmpxxf3cUedalias
+-'  1  19  ~/.forward
+-'  1  19  ~/.forward
+-'  46  0  /tmp/tmpK6jqypedalias
+-'  18  35  /tmp/tmpK6jqypedalias
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/hello/hello/urls.py
+	"	21	21
+	^	21	22
+	.	21	22
+	+	21	49
+	+	16	40
+	+	21	22
+
+> ~/hello/helloworld/urls.py
+	"	6	11
+	^	6	12
+	.	6	11
+	+	6	43
+	+	7	16
+	+	6	33
+	+	8	0
+	+	7	0
+	+	6	59
+	+	7	3
+	+	2	0
+	+	4	18
+	+	6	11
+
+> ~/hello/helloworld/views.py
+	"	5	0
+	^	5	1
+	.	5	0
+	+	2	35
+	+	3	0
+	+	9	40
+	+	6	0
+	+	5	0
+
+> ~/hello/hello/views.py
+	"	1	0
+
+> ~/hello/hello/settings.py
+	"	42	14
+	^	42	15
+	.	42	14
+	+	29	5
+	+	29	6
+	+	42	5
+	+	43	1
+	+	44	0
+	+	42	14
+
+> ~/hello/manage.py
+	"	22	4
+
+> ~/hello/print_hello/urls.py
+	"	1	0
+
+> ~/hello/print_hello/views.py
+	"	2	0
+	^	6	38
+	.	6	38
+	+	2	35
+	+	5	24
+	+	6	38
+
+> ~/Hello/manage.py
+	"	1	0
+
+> ~/Hello_World/manage.py
+	"	1	0
+
+> ~/Hello_World/Hello/urls.py
+	"	5	0
+	^	5	1
+	.	5	13
+	+	5	39
+	+	6	0
+	+	2	43
+	+	5	13
+
+> ~/Hello_World/Hello/views.py
+	"	4	8
+	^	4	9
+	.	4	8
+	+	5	61
+	+	4	8
+
+> ~/project_test/requirements.txt
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/project_test/pip-selfcheck.json
+	"	1	0
+
+> /tmp/tmpK6jqypedalias
+	"	46	0
+	^	46	0
+	.	7	0
+	+	19	0
+	+	27	0
+	+	42	0
+	+	7	0
+	+	7	0
+
+> /tmp/nugu-10630
+	"	6	9
+	^	6	10
+	.	6	10
+	+	6	10
+
+> /tmp/nugu-9876
+	"	18	15
+	^	18	18
+	.	19	21
+	+	6	13
+	+	7	13
+	+	8	15
+	+	9	20
+	+	10	30
+	+	12	18
+	+	15	29
+	+	19	21
+
+> /tmp/tmpxxf3cUedalias
+	"	42	1
+
+> ~/.forward
+	"	1	19
