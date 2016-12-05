@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href='/static/css/login.css'>
+</head>
+<body>
+  <div id="headline">
+    <div class="login">
+      <div id="signup">
+        <span onclick="location.href='/signup'" style="cursor:pointer;">sign up</span>
+      </div>
+    </div>
+    <div id="home">
+      <span onclick="location.href='/'" style="cursor:pointer;">Home</span>
+    </div>
+    <div class="category">
+      <div id="pato">
+        <span>pato</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="timetable">
+        <span>Time table</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="mypage">
+        <span>mypage</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="banner">
+    <div  id="textbox">
+      <div id="texts">
+      <h1>Taxi Together</h1>
+        <h2>Go taxi together with your friends.</h2>
+      </div>
+    </div>
+  </div>
+  <div class="login-page">
+    <form method="POST">
+      {% csrf_token %}
+      <div class="form-group">
+        <input type="username" class="form-control" name="username" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" name="password" placeholder="Password">
+      </div>
+      <button type="submit" class="button">Login</button>
+    </form>
+  </div>
+</body>
+</html>

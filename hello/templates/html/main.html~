@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href='/static/css/main.css'>
+</head>
+<body>
+  <div id="headline">
+    <div class="login">
+      <div id="signup">
+        <span>sign up</span>
+      </div>
+    </div>
+    <div id="home">
+      <span style="color: #F0795B">Home</span>
+    </div>
+    <div class="category">
+      <div id="pato">
+        <span>pato</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="timetable">
+        <span>time table</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="mypage">
+        <span>mypage</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="banner">
+    <div  id="textbox">
+      <div id="texts">
+      <h1>Taxi Together</h1>
+        <h2>Go taxi together with your friends.</h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

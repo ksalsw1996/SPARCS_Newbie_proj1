@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GanzapE</title>
+  <link rel="stylesheet" type="text/css" href='/static/css/GanzapE.css'>
+</head>
+<body>
+  <div id="headline">
+    <div class="login">
+      <div id="signup">
+        <span  onclick="location.href='/logout'" style="cursor:pointer;">logout</span>
+      </div>
+    </div>
+    <div id="home">
+      <span  onclick="location.href='/main'" style="cursor:pointer;">Home</span>
+    </div>
+    <div class="category">
+      <div id="pato">
+        <span onclick="location.href='/pato'" style="cursor:pointer;">pato</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="timetable">
+        <span onclick="location.href='/timetable'" style="cursor:pointer;">Time table</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="mypage">
+        <span onclick="location.href='/mypage'" style="cursor:pointer;">mypage</span>
+      </div>
+    </div>
+  </div>
+  <div class="banner">
+    <div  id="textbox">
+      <div id="texts">
+        <h1>간잽이는 맞아야 한다</h1>
+        <h2>-이승우(sexysw).</h2>
+        <h3>이달의 간잽이들을 소개합니다!</h3>
+        <div class="rules">
+        <h4>간잽이의 선정 기준은 다음과 같습니다</h4>
+          <ul>
+            <p>1. 모여진 팀을 붕괴시키는 경우(파토), 1점이 추가됩니다!</p>
+            <p>2. 약속 시간에 나타나지 않은 경우 2점이 추가됩니다!</p>
+            <p>3. 방장이 파토를 내는 경우 3점이 추가됩니다!</p>
+            <p>4. 상위 5명의 간잽이를 올려드리니, 방장들은 이분들을 조심하세요!</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>순위</th>
+        <th>이름</th>
+        <th>닉네임</th>
+        <th>점수</th>
+      </tr>
+    </thead>
+      <tbody>
+      <tr>
+        <th>갓 오브 간잽이</th>
+        <th>{{god.name}}</th>
+        <td>{{god.username}}</td>
+        <td>{{god.pato}}</td>
+      </tr>
+      <tr>
+        <th>킹 오브 간잽이</th>
+        <th>{{king.name}}</th>
+        <td>{{king.username}}</td>
+        <td>{{king.pato}}</td>
+      </tr>
+      <tr>
+        <th>레전드 오브 간잽이</th>
+        <th>{{legend.name}}</th>
+        <td>{{legend.username}}</td>
+        <td>{{legend.pato}}</td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <th>{{normal.name}}</th>
+        <td>{{normal.username}}</td>
+        <td>{{normal.pato}}</td>
+      </tr>
+      <tr>
+        <th>5</th>
+        <th>{{weak.name}}</th>
+        <td>{{weak.username}}</td>
+        <td>{{weak.pato}}</td>
+      </tr>
+      </tbody>
+  </table>
+</body>

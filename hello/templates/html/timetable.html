@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>timetable</title>
+  <link rel="stylesheet" type="text/css" href='/static/css/timetable.css'>
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+</head>
+<body>
+  <div id="headline">
+    <div class="login">
+      <div id="signup">
+        <span  onclick="location.href='/logout'" style="cursor:pointer;">logout</span>
+      </div>
+    </div>
+    <div id="home">
+      <span  onclick="location.href='/main'" style="cursor:pointer;">Home</span>
+    </div>
+    <div class="category">
+      <div id="pato">
+        <span onclick="location.href='/pato'" style="cursor:pointer;">pato</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="timetable">
+        <span onclick="location.href='/timetable'" style="cursor:pointer;">Time table</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="mypage">
+        <span onclick="location.href='/mypage'" style="cursor:pointer;">mypage</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="welcome">
+    <div class="wrapper">
+      <h1>이곳에서 택시를 같이 탈 사람을 구하세요!</h1>
+      <p>현재 대전역, 대전청사, 대전복합터미널을 지원하고 있습니다.</p>
+    </div>
+  </div>
+  <div class="question", id="station">
+    <h4>대전역</h4>
+    <h2>대전 KTX역이 있는 곳 입니다(예상 소요 금액 : 10000원)</h2>
+    <div class="makeroom">
+      <button class="room">방만들기</button>
+      <div class = 'toggle'>
+        <form class = "formform" method="POST">
+          {% csrf_token %}
+          <input type="timevalue" class="form-control" name="timevalue" placeholder="00:00">        
+            <input  formaction = "/submit/station/" type="submit" class="button" value="submit">
+        </form>
+      </div>
+    </div>
+    <div class="searchroom">
+      <button class="room">방찾기</button>
+      <table class="built-room">
+        <thead>
+          <tr>
+          <th>방장 이름</th>
+          <th>방장 닉네임</th>
+          <th>방장 전화번호</th>
+          <th>방장 파토</th>
+          <th>출발 시간</th>
+        </tr>
+        </thead>
+        <tbody>
+          {% for team in teams %}
+            {% if team.destination == "station" %}
+              <tr>
+                <th>{{team.kingname}}</th>
+                <th>{{team.kinguser}}</th>
+                <td>{{team.kingphone}}</td>
+                <td>{{team.kingpato}}</td>
+                <td>{{team.startT}}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="question", id="bus2">
+    <h4>대전복합터미널</h4>
+    <h2>대전 최대의 버스터미널입니다(예상 소요 금액 : 10000원)</h2>
+    <div class="makeroom">
+      <button class="room">방만들기</button>
+      <div class = 'toggle'>
+        <form class = "formform" method="POST">
+          {% csrf_token %}
+          <input type="timevalue" class="form-control" name="timevalue" placeholder="00:00">        
+            <input  formaction = "/submit/bus1/" type="submit" class="button" value="submit">
+        </form>
+      </div>
+    </div>
+    <div class="searchroom">
+      <button class="room">방찾기</button>
+      <table class="built-room">
+        <thead>
+          <tr>
+          <th>방장 이름</th>
+          <th>방장 닉네임</th>
+          <th>방장 전화번호</th>
+          <th>방장 파토</th>
+          <th>출발 시간</th>
+        </tr>
+        </thead>
+        <tbody>
+          {% for team in teams %}
+            {% if team.destination == "bus1" %}
+              <tr>
+                <th>{{team.kingname}}</th>
+                <th>{{team.kinguser}}</th>
+                <td>{{team.kingphone}}</td>
+                <td>{{team.kingpato}}</td>
+                <td>{{team.startT}}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="question", id="bus1">
+    <h4>대전청사</h4>
+    <h2>롯데 시네마 근처의 버스터미널 입니다(예상 소요 금액 : 4000원)</h2>
+    <div class="makeroom">
+      <button class="room">방만들기</button>
+      <div class = 'toggle'>
+        <form class = "formform" method="POST">
+          {% csrf_token %}
+          <input type="timevalue" class="form-control" name="timevalue" placeholder="00:00">        
+            <input  formaction = "/submit/bus2/" type="submit" class="button" value="submit">
+        </form>
+      </div>
+    </div>
+    <div class="searchroom">
+      <button class="room">방찾기</button>
+      <table class="built-room">
+        <thead>
+          <tr>
+          <th>방장 이름</th>
+          <th>방장 닉네임</th>
+          <th>방장 전화번호</th>
+          <th>방장 파토</th>
+          <th>출발 시간</th>
+        </tr>
+        </thead>
+        <tbody>
+          {% for team in teams %}
+            {% if team.destination == 'bus2' %}
+              <tr>
+                <th>{{team.kingname}}</th>
+                <th>{{team.kinguser}}</th>
+                <td>{{team.kingphone}}</td>
+                <td>{{team.kingpato}}</td>
+                <td>{{team.startT}}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+<script src='/static/js/timetable.js'></script>
+</html>       

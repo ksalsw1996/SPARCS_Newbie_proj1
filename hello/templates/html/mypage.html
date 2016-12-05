@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href='/static/css/mypage.css'>
+  <title>Login Page</title>
+</head>
+<body>
+  <div id="headline">
+    <div class="login">
+      <div id="signup">
+        <span  onclick="location.href='/logout'" style="cursor:pointer;">logout</span>
+      </div>
+    </div>
+    <div id="home">
+      <span  onclick="location.href='/main'" style="cursor:pointer;">Home</span>
+    </div>
+    <div class="category">
+      <div id="pato">
+        <span onclick="location.href='/pato'" style="cursor:pointer;">pato</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="timetable">
+        <span onclick="location.href='/timetable'" style="cursor:pointer;">Time table</span>
+      </div>
+    </div>
+    <div class="category">
+      <div id="mypage">
+        <span onclick="location.href='/mypage'" style="cursor:pointer;">mypage</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="welcome">
+    <div class="wrapper">
+      <h1>이곳에서 택시팀을 확인하세요!</h1>
+      <p>방장은 이곳에서 어떤 사람들을 팀에 넣을지 결정해야합니다!</p>
+    </div>
+  </div>
+  <div class="question", id="station">
+    <h4>내가 만든 방</h4>
+    <h2>여러분은 이 방들의 방장입니다. <br/>방 구성원 설정 및
+      파토를 결정낼 수 있습니다. <br/>방장이 파토를 내는 경우는 3점의 간잽이 점수가 추가됩니다.</h2>
+    <div class="answer">
+      <h3>방 만들기</h3>
+    </div>
+    <div class="answer">
+      <h3>신청하기</h3>
+    </div>
+  </div>
+  <div class="question", id="bus2">
+    <h4>신청한 방</h4>
+    <h2>여러분은 이 방의 팀원입니다.<br />부득이하게 취소를 해야하는 경우 '파토' 버튼을 눌러주세요.<br />파토를 하는 경우 1점이 부여되지만, 나타나지 않으면 2점입니다.</h2>
+    <div class="answer">
+      <h3>방 만들기</h3>
+    </div>
+    <div class="answer">
+      <h3>신청하기</h3>
+    </div>
+  </div>
+</body>
+</html>
